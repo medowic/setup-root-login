@@ -20,7 +20,7 @@ sh script-lvr.sh
 ```
 or:
 ```
-chmod -x script-lvr.sh
+chmod +x script-lvr.sh
 ./script-lvr.sh
 ```
 
