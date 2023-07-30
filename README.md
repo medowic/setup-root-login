@@ -18,6 +18,7 @@ This script has been tested on these systems:
 - Ubuntu Server 23.04
 
 The systems included in this list are fully operational.
+
 We do not know about the support of systems not included in this list. Use at your own risk.
 
 # How to use?
