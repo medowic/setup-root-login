@@ -1,5 +1,4 @@
 # Setup Login via Root
-### setup-login-via-root
 
 This script will help you set up the login via the root-user.
 
@@ -11,5 +10,6 @@ The script has been tested on these systems:
 - Ubuntu Server 23.04
 
 # How to use?
-1. Download `script-lvr.sh`
-2. 
+1. Download zip-archive containing open-source of project.
+2. Find and start `script-lvr.sh`.
+2.1. You can 
