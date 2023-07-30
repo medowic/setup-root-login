@@ -16,30 +16,20 @@ sudo su -
 
 This script has been tested on these systems:
 - Ubuntu Server 23.04
+- Ubuntu Server 22.04
 
 The systems included in this list are fully operational.
 
 We do not know about the support of systems not included in this list. Use at your own risk.
 
 # How to use?
-1. Download zip-archive containing open-source of project or use `git clone`:
+1. Run this command:
 ```
-git clone https://github.com/medowic/setup-login-via-root.git
+git clone https://github.com/medowic/setup-login-via-root.git && chmod +x script-lvr.sh && ./script-lvr.sh
 ```
+**Please note: the correct script launch is only possible via** `chmod +x && ./script-lvr.sh`
 
-2. Find and start `script-lvr.sh`.
-
-2.1. You can start `script-lvr.sh` in two ways:
-```
-sh script-lvr.sh
-```
-or:
-```
-chmod +x script-lvr.sh
-./script-lvr.sh
-```
-
-3. Reboot your system (optional).
+2. Reboot your system (optional).
 ```
 sudo reboot
 ```
