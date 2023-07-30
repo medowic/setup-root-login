@@ -1,13 +1,20 @@
 # Setup Login via Root (Ubuntu tested)
 
 This script will help you set up the login via the root-user.
-Use it immediately after installing the system or on a clean system.
+Use it on a clean or newly installed system.
 
 It is recommended to use on server machines. The root-user may conflict with the GNOME shell.
 
+### NOTICE
 **The author is not responsible for all your actions after installing the script. Login via the root-user is not recommended due to security reasons. Use the script at your own risk.** 
 
-The script has been tested on these systems:
+**If you are looking for an answer to the question "How to work from root?", run this command:""
+```
+sudo su -
+```
+
+
+This script has been tested on these systems:
 - Ubuntu Server 23.04
 
 # How to use?
