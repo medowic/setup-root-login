@@ -4,3 +4,4 @@
 This script will help you set up the login via the root-user.
 
 ## How to use?
+1. Download '123'
