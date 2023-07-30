@@ -1,6 +1,7 @@
-# Setup Login via Root
+# Setup Login via Root (Ubuntu tested)
 
 This script will help you set up the login via the root-user.
+Use it immediately after installing the system or on a clean system.
 
 It is recommended to use on server machines. The root-user may conflict with the GNOME shell.
 
