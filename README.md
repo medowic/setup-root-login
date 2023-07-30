@@ -18,7 +18,8 @@ The script has been tested on these systems:
 
 or:
 
-`chmod -x script-lvr.
+`chmod -x script-lvr.sh
+
 ./script-lvr.`
 
 3. Reboot your system (optional).
