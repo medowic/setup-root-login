@@ -13,9 +13,14 @@ The script has been tested on these systems:
 1. Download zip-archive containing open-source of project.
 2. Find and start `script-lvr.sh`.
 2.1. You can start `script-lvr.sh` in two ways:
+
 `sh script-lvr.sh`
+
 or:
-`chmod -x script-lvr.sh
+
+`chmod -x script-lvr.
 ./script-lvr.`
+
 3. Reboot your system (optional).
+
 `sudo reboot`
