@@ -25,4 +25,6 @@ chmod -x script-lvr.sh
 ```
 
 3. Reboot your system (optional).
-`sudo reboot`
+```
+sudo reboot
+```
