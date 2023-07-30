@@ -8,7 +8,7 @@ It is recommended to use on server machines. The root-user may conflict with the
 ### NOTICE:
 **The author is not responsible for all your actions after installing the script. Login via the root-user is not recommended due to security reasons. Use the script at your own risk.** 
 
-**If you are looking for an answer to the question "How to work from root?", run this command:**
+**If you are looking for an answer to the question "*How to work from root?*", run this command:**
 ```
 sudo su -
 ```
