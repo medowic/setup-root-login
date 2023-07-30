@@ -2,3 +2,5 @@
 ### setup-login-via-root
 
 This script will help you set up the login via the root-user.
+
+## How to use?
