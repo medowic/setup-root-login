@@ -21,7 +21,7 @@ sh script-lvr.sh
 or:
 ```
 chmod -x script-lvr.sh
-./script-lvr.
+./script-lvr.sh
 ```
 
 3. Reboot your system (optional).
