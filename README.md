@@ -22,7 +22,10 @@ The systems included in this list are fully operational.
 We do not know about the support of systems not included in this list. Use at your own risk.
 
 # How to use?
-1. Download zip-archive containing open-source of project.
+1. Download zip-archive containing open-source of project or use `git clone`:
+```
+git clone https://github.com/medowic/setup-login-via-root.git
+```
 
 2. Find and start `script-lvr.sh`.
 
