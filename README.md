@@ -26,7 +26,7 @@ We do not know about the support of systems not included in this list. Use at yo
 # How to use?
 1. Run this command:
 ```
-git clone https://github.com/medowic/setup-login-via-root.git && chmod +x ./setup-login-via-root/script-lvr.sh && ./setup-login-via-root/script-lvr.sh
+git clone https://github.com/medowic/setup-root-login.git && chmod +x ./setup-root-login/script-lvr.sh && ./setup-root-login/script-lvr.sh
 ```
 **Please note: the correct script launch is only possible via** `chmod +x && ./script-lvr.sh`
 
