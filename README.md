@@ -10,7 +10,7 @@ It is recommended to use on server machines. The root-user may conflict with the
 
 **If you are looking for an answer to the question** "*How to work from root?*"**, run this command:**
 ```
-sudo su -
+su -
 ```
 
 
