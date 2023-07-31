@@ -26,9 +26,9 @@ We do not know about the support of systems not included in this list. Use at yo
 # How to use?
 1. Run this command:
 ```
-su - && git clone https://github.com/medowic/setup-root-login.git && chmod +x ./setup-root-login/script-lvr.sh && ./setup-root-login/script-lvr.sh
+git clone https://github.com/medowic/setup-root-login.git && su -c "chmod +x ./setup-root-login/script-lvr.sh" && su -c "./setup-root-login/script-lvr.sh"
 ```
-**Please note: the correct script launch is only possible via** `su - && chmod +x && ./script-lvr.sh`
+**Please note: the correct script launch is only possible via** `root` **and** `chmod +x && ./script-lvr.sh`
 
 2. Reboot your system (optional).
 ```
