@@ -17,7 +17,7 @@ sudo su -
 This script has been tested on these systems:
 - Ubuntu Server 23.04
 - Ubuntu Server 22.04
-- Debian 12 (required `sudo`)
+- Debian 12 (temporarily required `sudo`)
 
 The systems included in this list are fully operational.
 
