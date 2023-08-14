@@ -75,7 +75,7 @@ function passwdRoot() {
 
 function goStart() {
 
-    echo "${ORANGE}Starting setup...${NC}"
+    echo -e "${ORANGE}Starting setup...${NC}"
     echo ""
 
     passwd -u root >/dev/null 2>&1
@@ -116,7 +116,7 @@ function mainMenu() {
 
         read -p "LoginViaRoot:~# " doing
 
-        if [ "$doing" -eq 1 ]; then
+        if [ "${doing}" -eq 1 ]; then
 
             startHere;
 
@@ -138,15 +138,20 @@ function mainMenu() {
 
         elif [ "${doing}" -eq 0 ]; then
 
-            startHere;
-
             echo "";
             echo "";
             echo "Exit...";
         
             exit 0;
 
+        elif [ -z "${doing}" ]; then
+
+            continue;
+
         else
+
+            echo "";
+            echo "Unknown command ${doing}";
 
             continue;
 
