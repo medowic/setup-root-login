@@ -144,7 +144,7 @@ function mainMenu() {
         
             exit 0;
 
-        elif [ -z "${doing}" ]; then
+        elif [[ -z "${doing}" ]]; then
 
             continue;
 
