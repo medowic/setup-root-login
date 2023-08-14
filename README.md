@@ -35,7 +35,7 @@ chmod u+x ./setup-root-login/script.sh
 
 2. Reboot your system (optional).
 ```
-sudo reboot
+reboot
 ```
 
 # License
