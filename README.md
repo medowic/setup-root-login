@@ -34,3 +34,7 @@ git clone https://github.com/medowic/setup-root-login.git && su -c "chmod +x ./s
 ```
 sudo reboot
 ```
+
+# License
+
+**This project is under the [MIT Licence](https://raw.githubusercontent.com/medowic/setup-root-login/master/LICENSE)**
