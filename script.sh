@@ -116,7 +116,7 @@ function mainMenu() {
 
         read -p "LoginViaRoot:~# " doing
 
-        if [ "${doing}" -eq 1 ]; then
+        if [[ "${doing}" -eq 1 ]]; then
 
             startHere;
 
@@ -136,7 +136,7 @@ function mainMenu() {
 
             mainMenu;
 
-        elif [ "${doing}" -eq 0 ]; then
+        elif [[ "${doing}" -eq 0 ]]; then
 
             echo "";
             echo "";
