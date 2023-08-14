@@ -116,7 +116,7 @@ function mainMenu() {
 
         read -p "LoginViaRoot:~# " doing
 
-        if [[ "${doing}" -eq 1 ]]; then
+        if [ "${doing}" == "1" ]; then
 
             startHere;
 
@@ -136,7 +136,7 @@ function mainMenu() {
 
             mainMenu;
 
-        elif [[ "${doing}" -eq 0 ]]; then
+        elif [ "${doing}" == "0" ]; then
 
             echo "";
             echo "";
@@ -144,14 +144,13 @@ function mainMenu() {
         
             exit 0;
 
-        elif [[ -z "${doing}" ]]; then
+        elif [ -z "${doing}" ]; then
 
             continue;
 
         else
 
-            echo "";
-            echo "Unknown command ${doing}";
+            echo "-LoginViaRoot: ${doing}: command not found";
 
             continue;
 
