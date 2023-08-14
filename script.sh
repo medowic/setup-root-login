@@ -141,7 +141,6 @@ function mainMenu() {
         elif [ "${doing}" == "0" ]; then
 
             echo "";
-            echo "";
             echo "Exit...";
         
             exit 0;
