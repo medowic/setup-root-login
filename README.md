@@ -1,4 +1,4 @@
-# Setup Login via Root (Ubuntu and Debian). Updating...
+# Setup Login via Root (Ubuntu and Debian).
 
 This script will help you set up the login via the root-user.
 Use it on a clean or newly installed system.
@@ -24,11 +24,14 @@ The systems included in this list are fully operational.
 We do not know about the support of systems not included in this list. Use at your own risk.
 
 # How to use?
-1. Run this command:
+1. Run this commands (**in turn**):
 ```
-git clone https://github.com/medowic/setup-root-login.git && su -c "chmod +x ./setup-root-login/script-lvr.sh" && su -c "./setup-root-login/script-lvr.sh"
+su -
+git clone https://github.com/medowic/setup-root-login.git
+chmod u+x ./setup-root-login/script.sh
+./setup-root-login/script.sh
 ```
-**Please note: the correct script launch is only possible via** `root` **and** `chmod +x && ./script-lvr.sh`
+**Please note: the correct script launch is only possible via** `root` **and** `chmod u+x && ./script.sh`
 
 2. Reboot your system (optional).
 ```
