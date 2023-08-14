@@ -106,11 +106,12 @@ function mainMenu() {
 
     echo -e "${ORANGE}It's looks like you already have a LoginViaRoot.${NC}"
     echo ""
-    echo "Hello, ${USER}! What do you want now?"
+    echo "Hello, user! What do you want now?"
     echo ""
     echo ""
     echo "1) Change password for root"
     echo "0) Exit"
+    echo ""
 
     while true; do
 
@@ -120,6 +121,7 @@ function mainMenu() {
 
             startHere;
 
+            echo "";
             echo "Enter new password for root:";
             passwd root;
 
@@ -150,7 +152,9 @@ function mainMenu() {
 
         else
 
-            echo "-LoginViaRoot: ${doing}: command not found";
+            echo "";
+            echo -e "-- LoginViaRoot: ${doing}: command ${RED}not found${NC}";
+            echo "";
 
             continue;
 
