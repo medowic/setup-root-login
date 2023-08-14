@@ -1,4 +1,4 @@
-# Setup Login via Root (Ubuntu and Debian)
+# Setup Login via Root (Ubuntu and Debian). Updating...
 
 This script will help you set up the login via the root-user.
 Use it on a clean or newly installed system.
